@@ -1,1 +1,1 @@
-# PBTASS-rewwighing
+# PBTASS-reweighing codes. The calculation of ct and vbias factor code is given seperately. Also we have crosse verifies our vbias calculation with the plumed bias printed in COLVAR file. For the final reweighting, we have two codes where "program_pb_reweighting_plumed.f90" uses the vbias from the plumed COLVAR file while "program_pb_reweighting.f90" uses the bias calculated by "program_pbmtd_vbias.f90" code. Both probability code computes the 4D probability. 
